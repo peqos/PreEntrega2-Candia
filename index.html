@@ -17,24 +17,54 @@
         <link rel="stylesheet" href="./paginas/CSS/style.css">
 
     </head>
-        <header>
-            <div class="contenedor">
-                <a href="./index.html"><img src="./paginas/img/logo-completo.png" alt="Logo manantial de Bendiciones" class="logo"></a>
-            </div>
-            <div class="contenedor-logo">           
-                <nav class="nav-menu">              
-                    <ul>                 
-                        <li class="boton-hover"><a href="./index.html">Inicio</a></li>
-                        <li class="boton-hover"><a href="./paginas/vivo.html">Vivo</a></li>
-                        <li class="boton-hover"><a href="./paginas/ministerios.html">Ministerios</a></li>
-
-                        <li class="boton-hover"><a href="./paginas/videos.html">Videos</a></li>
-                        <li class="boton-hover"><a href="./paginas/contacto.html">Contacto</a></li>
-                    </ul>                          
-                </nav>
-            </div>
-        </header>
+    <header class="d-flex flex-column justify-content-center">
+        <div class="contenedor">
+          <a href="./index.html"><img src="./paginas/img/logo-completo.png" alt="Logo manantial de Bendiciones" class="logo-desktop-verdadero"></a>
+        </div>
+        <div class="contenedor-logo">
+          <a href="../index.html"><img src="./paginas/img/logo-completo.png" alt="Logo manantial de Bendiciones" class="logo-desktop"></a>
+        
+            <nav class="navbar navbar-expand-lg ">
+                
+                <div class="container-fluid justify-content-sm-between">
+                    <a class="navbar-brand" href="#"><a href="../index.html"><img src="./img/logo-completo.png" alt="Logo manantial de Bendiciones" class="logo logo-mobile"></a></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav fuente">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white boton-hover" aria-current="page" href="./index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white boton-hover" href="./paginas/vivo.html">Vivo</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white boton-hover" href="./paginas/videos.html">Videos</a>
+                      </li>
+                      <li class="nav-item dropdown boton-hover">
+                        <a class="nav-link dropdown-toggle text-white fuente" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Ministerios
+                        </a>
+                        <ul class="dropdown-menu fuente" style="background-color:#00000024; --bs-dropdown-link-active-bg: #000000; --bs-dropdown-link-hover-bg: #0000008c; ">
+                            <li><a class="dropdown-item text-white" href="./paginas/ministerios.html">Ministerios</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Banderas (en proceso)</a></li>
+                            <li><a class="dropdown-item text-white" href="#">Medios (en proceso)</a></li>
+                          </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-white boton-hover" href="./paginas/contacto.html">Contacto</a>
+                        </li>  
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
     <main>
+      <section class="imagen-fondo bloque-principal-contacto"> 
+      </section>
+        <!-- inicio del carousel-->
         <div id="carouselExampleCaptions" class="carousel slide fotos-principales" data-bs-ride="false">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,7 +114,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
+          <!-- fin del carousel-->
     </main>
     <section class="features">
         <p>En que podemos ayudarte?</p>
@@ -163,21 +193,32 @@
         
     </section>
     <footer>
-            <div class="logo-footer">
-            <img src="./paginas/img/logo-completo.png" alt="Logo Manantial de Bendiciones">
-            </div>
-            <div>
-                <p>datos de contacto</p>
-            </div>
-            <div class="div-footer-redes">               
-                <a href="https://instagram.com/manantialdebendiciones?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./paginas/img/instagram.png" alt="logo de instagram"></a>
-                    
-                <a href="https://www.facebook.com/mbendicionesoficial" target="_blank"><img src="./paginas/img/facebook.png" alt=""></a>
-
-                <a href="https://www.youtube.com/c/PastorAlbertoRey/featured" target="_blank"><img src="./paginas/img/youtube.png" alt=""></a>
-                
-            </div>
-        </footer>
+        <div class="footer-logoredes">
+          <img src="./paginas/img/logo-completo.png" alt="logo Manantial de Bendiciones">
+          <div class="footer-redes">
+              <a href="https://instagram.com/manantialdebendiciones?igshid=YmMyMTA2M2Y=" target="_blank"><img src="./paginas/img/instagram.png" alt="logo de instagram">
+              </a>
+              
+              <a href="https://www.facebook.com/mbendicionesoficial" target="_blank"">
+                  <img src="./paginas/img/facebook.png" alt="logo de instagram">
+              </a>
+              
+              <a href="https://www.youtube.com/c/PastorAlbertoRey/featured" target="_blank"><img src="./paginas/img/youtube.png" alt="logo de instagram">
+              </a>
+              
+          </div>
+        </div>
+      <div class="footer-redescorreo">
+        <div class="footer-datos">
+          <img src="./paginas/img/instagram.png" alt="logo de instagram" class="">
+            <span> 11-6747-2368 </span>
+        </div>
+        <div class="footer-mail">
+            <img src="./paginas/img/instagram.png" alt="logo de instagram" class="">
+            <span> fcandia@galileo.edu.ar </span>
+        </div>       
+      </div> 
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>

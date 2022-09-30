@@ -244,6 +244,7 @@ section div div div p {
 .contenedor {
   display: none;
 }
+/* inicio de formulario en contacto.html*/
 .caja_formulario2 {
   background-color: white;
   align-items: center;
@@ -258,7 +259,11 @@ section div div div p {
   text-align: center;
   margin-top: 2rem;
 }
+/* inicio de formulario en contacto.html*/
 .comollegar {
+  text-align: center;
+}
+.caja-galeria-videos{
   text-align: center;
 }
 .contenedor-logo-desktop {

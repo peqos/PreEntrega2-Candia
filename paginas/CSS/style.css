@@ -226,18 +226,6 @@ section div div div p {
     margin-bottom: 1rem;
     gap: 1rem;
 }
-.img-ministerios-banderas{
-    background-image: url(../img/banderas.jpg);
-}
-.img-ministerios-medios{
-    background-image: url(../img/medios.jpg);
-}
-.img-ministerios-danza{
-    background-image: url(../img/danza.jpg);
-}
-.img-ministerios-sonido{
-    background-image: url(../img/sonido.jpg);
-}
 .contenedor-ministerios .productos img{
     width: 100%;
     height: 100%;
@@ -245,7 +233,6 @@ section div div div p {
 }
 
 .contenedor-ministerios .productos .capa{
-    text-align: center;
     position: absolute;
     top: 0;
     width: 100%;
@@ -254,6 +241,7 @@ section div div div p {
     transition: all 500ms ease-out;
     opacity: 0;
     visibility: hidden;
+    text-align: center;
 }
 
 .contenedor-ministerios .productos:hover > .capa{
@@ -266,11 +254,21 @@ section div div div p {
     font-size: 1.5rem;
     font-weight: 400px;
     margin-bottom: 120px;
-    transition: all 500ms ease-out;   
+    transition: all 500ms ease-out;
+    margin-top: 20px;   
 }
 .contenedor-ministerios .productos:hover > .capa h3{
-    margin-top: 2px;
-    margin-bottom: 0px ; 
+    margin-top: 70px;
+    margin-bottom: 15px ; 
+}
+.contenedor-ministerios .productos:hover > img{
+  transform: scale(1.3);
+}
+.contenedor-ministerios .productos img{
+  height: auto;
+  width: auto;
+  max-height:400px ;
+  max-width: 550px;
 }
 
 .contenedor-ministerios .productos .capa p{

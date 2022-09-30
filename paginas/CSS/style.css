@@ -97,10 +97,6 @@ fotos-principales {
 body {
   background-color: #f4f6fc;
 }
-body h1{
-    text-align: center;
-    margin-top: 1rem;
-}
 /* inicio de cartas del index*/
 .features {
   background-color: #f4f6fc;
@@ -112,13 +108,12 @@ body h1{
 .feature-contenedor {
   display: flex;
   flex-wrap: wrap;
-  height: 680px;
-  justify-content: space-between;
-  width: 66%;
+  justify-content: center;
   margin-top: 20px;
   margin-bottom: 20px;
   min-height: 470px;
-  align-content: space-between;
+  gap: 1rem;
+  text-align: center;
 }
 .feature-contenedor-cartas {
   background-color: white;
@@ -264,7 +259,10 @@ section div div div p {
   text-align: center;
 }
 .caja-galeria-videos{
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 .contenedor-logo-desktop {
   display: none;

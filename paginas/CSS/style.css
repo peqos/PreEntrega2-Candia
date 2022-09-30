@@ -4,116 +4,7 @@
   box-sizing: border-box;
   font-family: "FF_VnAvantH-Bold", sans-serif;
 }
-.fuente {
-  font-family: "FF_VnAvantH-Bold", sans-serif;
-  list-style: none;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.carousel {
-  display: none;
-}
-.imagen-fondo {
-  height: 50rem;
-  background-image: url(../img/imagen-prueba.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.navbar-toggler {
-  background-color: white;
-}
-.padre-de-logos {
-  margin-left: 1rem;
-  align-items: center;
-  gap: 0.5rem;
-}
-header-info-redes div div img,
-.header-redes img,
-.header-telefono img,
-.header-mail img {
-  height: 15px;
-  width: 15px;
-}
-.header-img-tell-mail {
-  margin-top: 5.1px;
-}
-.logo {
-  height: 40px;
-}
-
-.header-info-redes {
-  background-color: #02253d00;
-  color: white;
-  display: flex;
-  gap: 1rem;
-  width: 100%;
-  height: 24px;
-  padding-top: 0.2rem;
-  justify-content: center;
-}
-.header-telefono,
-.header-mail {
-  display: flex;
-  gap: 0.3rem;
-}
-.header-redes a {
-  text-decoration: none;
-}
-.header-telefono:hover,
-.header-mail:hover {
-  color: #bcbcbc;
-}
-header {
-  position: fixed;
-  z-index: 1;
-  background-color: #0000003f;
-  width: 100%;
-}
-header nav ul li a {
-  text-decoration: none;
-  padding-right: 1px;
-  color: white;
-  padding-bottom: 1rem;
-  padding-top: 0.5rem;
-}
-header nav ul li a:hover {
-  color: #bcbcbc;
-}
-.nav-menu {
-  display: flex;
-  justify-content: end;
-}
-fotos-principales {
-  margin-bottom: 2rem;
-}
-.nav-menu ul {
-  display: flex;
-  gap: 2rem;
-  list-style: none;
-  margin-right: 1rem;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-.contacto {
-  border: 0px solid white;
-}
-
-.nav menu ul li a.active,
-.nav menu ul li a:hover {
-  background-color: rgba(rgba(0, 0, 0, 0.08) alpha);
-}
-
-.contenedor-logo {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: 1rem;
-}
-
-.imagen-principal {
-  margin-bottom: 2rem;
-}
+/* inicio del footer de todas las paginas */
 footer {
   background-color: black;
   display: flex;
@@ -150,7 +41,56 @@ footer p {
   align-items: center;
   gap: 0.4rem;
 }
+/* inicio del footer de todas las paginas */
+.fuente {
+  font-family: "FF_VnAvantH-Bold", sans-serif;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+/* ocultando carousel en mobile */
+.carousel {
+  display: none;
+}
+/* fondo menor a 992px */
+.imagen-fondo {
+  height: 50rem;
+  background-image: url(../img/imagen-prueba.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.navbar-toggler {
+  background-color: white;
+}
+/* tamaño de las imagenes redes en el header(ya se que tengo que editarlas y hacerlas mas chica pero no me dio el tiempo perdon) */
+header-info-redes div div img,
+.header-redes img,
+.header-telefono img,
+.header-mail img {
+  height: 15px;
+  width: 15px;
+}
+.header-redes a {
+  text-decoration: none;
+}
+/* estilos al header */
+header {
+  position: fixed;
+  z-index: 1;
+  background-color: #0000003f;
+  width: 100%;
+}
+fotos-principales {
+  margin-bottom: 2rem;
+}
+.contenedor-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+/* subrallado cuando paso por encima */
 .boton-hover:hover {
   border-bottom: 1px solid white;
 }
@@ -161,6 +101,7 @@ body h1{
     text-align: center;
     margin-top: 1rem;
 }
+/* inicio de cartas del index*/
 .features {
   background-color: #f4f6fc;
   display: flex;
@@ -193,7 +134,7 @@ section div div div h1 {
 section div div div p {
   margin-bottom: 30px;
 }
-
+/* fin de cartas del index*/
 .fotos-redes {
   display: flex;
   gap: 1rem;

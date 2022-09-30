@@ -258,12 +258,26 @@ section div div div p {
 .comollegar {
   text-align: center;
 }
+/* inicio de videos.html*/
 .caja-galeria-videos{
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   justify-content: center;
 }
+.galeria-de-videos-h1{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* fin de videos.html */
+/* inicio de vivo.html */
+.transmision-en-directo{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* fin de vivo.html */
 .contenedor-logo-desktop {
   display: none;
 }
